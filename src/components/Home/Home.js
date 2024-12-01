@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typewriter from 'typewriter-effect/dist/core';
-import profileAvatar from "../asset/logo.png";
+import profileAvatar from "../asset/jim_macur.JPG";
 import PersonalData from "../../Data/PersonalData";
 import classes from "./home.module.css";
 import { autoTypeData } from "../../Data/PersonalData";
@@ -37,7 +37,7 @@ function Home(props) {
                     {PersonalData.nickName}
                 </h3>
                 <div className={classes.autoText}>
-                    I am a &nbsp; <span id="typer" style={{ color: uiColor }}></span>
+                    I am&nbsp; <span id="typer" style={{ color: uiColor }}></span>
                 </div>
                 <p className={classes.connectText}>Feel free to <span style={{ color: uiColor }}>connect</span> with me.</p>
                 <SocialLinks className={classes.links} />

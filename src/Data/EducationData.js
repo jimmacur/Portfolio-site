@@ -1,34 +1,35 @@
 const languagesDone = [
-    {
-        name: 'C++',
-        percentDone: 90
-    },
-    {
-        name: 'Python',
-        percentDone: 70
-    },
-    {
-        name: 'React Js',
-        percentDone: 80
-    },
-    {
-        name: 'Node Js',
-        percentDone: 70
-    },
-    {
-        name: 'Dart',
-        percentDone:40
-    }
+    // {
+    //     name: 'C++',
+    //     percentDone: 90
+    // },
+    // {
+    //     name: 'Python',
+    //     percentDone: 70
+    // },
+    // {
+    //     name: 'React Js',
+    //     percentDone: 80
+    // },
+    // {
+    //     name: 'Node Js',
+    //     percentDone: 70
+    // },
+    // {
+    //     name: 'Dart',
+    //     percentDone:40
+    // }
 ]
 const EducationData={
-    collegeName:"Rajkiya Engineering College, Ambedkar Nagar",
-    courseName:"B.Tech in Information Technology",
-    couseStartYear:"2021",
+    collegeName:"Turing School for Software and Design",
+    courseName:"Full Stack Engineering",
+    couseStartYear:"July 2024",
     courseEndYear:"Present",
     details:[
-        'I joined my college in 2021. Cleared First and Second Year with a good academic performance.',
-        'I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, COA, AI etc.',
-        ' Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.'
+        'Built and deployed full-stack applications using React and Ruby on Rails',
+        'Utilized test-driven development with Cypress and RSpec',
+        'Collaborated with team members to deliver projects on time and within scope',
+        'Worked in an Agile environment to deliver projects in one and two-week sprints'
     ],
     codingStatus:languagesDone
 }

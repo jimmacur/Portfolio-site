@@ -15,57 +15,19 @@ import Mode from './theme/mode';
 
 
 const App = () => {
-
-    // const location = useLocation();
-    const theme = useSelector(state => state.theme);
-    
-    return (
-        <div className="App" style={theme}>
-            <Navbar />
-            <Home />
-            <Education />
-            <Projects />
-            <AboutMe />
-            <Footer />
-            <Mode/>
-        </div>
-        /* To use browser-router comment upper section and uncomment app-content section and its imports     */
-        /* <div className="app-content">
-            <TransitionGroup>
-                <CSSTransition timeout={300} classNames='fade' key={location.key}>
-                    <Switch location={location}>
-                        <Route path="/" exact>
-                            <Redirect to="/home" />
-                        </Route>
-                        <Route path="/home">
-                            <Home />
-                        </Route>
-
-                        <Route path="/about-me">
-                            <AboutMe />
-                        </Route>
-
-                        <Route path="/education">
-                        <Education />
-                        </Route>
-
-                        <Route path="/certifications">
-                            <Certifications />
-                        </Route>
-
-                        <Route path="/projects">
-                            <Projects />
-                        </Route>
-                        <Route path="*">
-                            <Redirect to="/home" />
-                        </Route>
-                    </Switch>
-                </CSSTransition>
-            </TransitionGroup>
-        </div> 
+  const theme = useSelector(state => state.theme);
+  
+  return (
+    <div className="App" style={theme}>
+        <Navbar />
+        <Home />
+        <Education />
+        <Projects />
+        <AboutMe />
         <Footer />
-</div> */
-    )
+        <Mode/>
+    </div>
+  )
 }
 
 export default App;

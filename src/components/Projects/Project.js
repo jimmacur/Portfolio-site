@@ -22,7 +22,7 @@ const Projects = (props) => {
                 </section>
                 <section className={styles.projectHeader}>
                     <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
+                    <div>My work involves leveraging a diverse range of modern technologies and tools. My expertise lies in building responsive and dynamic React applications, integrating backend functionality with Rails, and deploying web applications seamlessly to platforms like Heroku and Netlify.</div>
                 </section>
             </div>
             <ProgrammingSkills />
