@@ -1,5 +1,3 @@
-// import { CSSTransition, TransitionGroup } from 'react-transition-group';
-// import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import './app.css';
 
 //components

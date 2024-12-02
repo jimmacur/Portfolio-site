@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 const Projects = (props) => {
     const nonThemeColor = useSelector(state => state.nonThemeColor);
     const uiColor = useSelector(state => state.uiColor);
-    let projects = ProjectsData.DUMMY_PROJECTS;
+    let projects = ProjectsData.PROJECTS;
     return (
         <div id="projects">
             <div className={styles.projects}>

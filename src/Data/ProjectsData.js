@@ -1,52 +1,52 @@
-const DUMMY_PROJECTS=[
+const PROJECTS=[
     {
-        projectTitle:'PortFolio Template',
-        description: 'This project is a React app to generate a creative professional website based on Data provided. The website uses no backend and is free to fork and use.',
-        sourceLink:'https://github.com/killer-abhi/Portfolio.git',
-        lastUpdated:'Jan 20 2023'
+        projectTitle:'Down the Rabbit Hole',
+        description: 'Down the Rabbit Hole is an interactive web application that lets users explore national parks and discover fascinating information about the animals that inhabit them. Users can dive deeper into the ecosystem by navigating through predator and prey relationships, creating a unique and educational journey.',
+        sourceLink:'https://github.com/Down-the-Rabbit-Holes',
+        lastUpdated:'Dec 1, 2024'
     },
     {
-        projectTitle:'Expense Tracker',
-        description: 'A React project to get a track of weekly expenses. It also creates a graphical data to help monitor the expenses on daily basis',
-        sourceLink:'https://github.com/killer-abhi/expense-tracker.git',
-        lastUpdated:'Dec 30 2022'
+        projectTitle:'Tea Subscription',
+        description: 'This Tea Subscription Frontend is built using React, and it consumes the Tea Subscription API (Rails backend) to manage subscriptions, teas, and customers. The frontend focuses on creating an intuitive user interface that allows customers to interact with the subscription service. This was completed in two days as a solo project.',
+        sourceLink:'https://github.com/jimmacur/tea-subscription-FE',
+        lastUpdated:'Nov 2024'
     },
     {
-        projectTitle:'Realtime Chat Site',
-        description: 'It is a Realtime Chat Website built using Socket.io and Express with NodeJs as a backend and MongoDB as a database. It updates the chat messages in realtime with Typing notification of other users',
-        sourceLink:'https://github.com/killer-abhi/realtime-chat-site.git',
-        lastUpdated:'Dec 10 2022'
+        projectTitle:'Chuck Norris Jokes',
+        description: 'This project is a simple React app that fetches jokes from the Chuck Norris API and displays them on the screen. The app allows users to search for jokes by category and save their favorite jokes to a list. This was completed in one day as a solo project.',
+        sourceLink:'https://github.com/jimmacur/ChuckNorrisJokes',
+        lastUpdated:'Nov 2024'
     },
     {
-        projectTitle:'Food Order Website',
-        description: 'It is a React based website demonstrating how food order works with Cart updates and storing it in Firebase Database.',
-        sourceLink:'https://github.com/killer-abhi/food-order-react.git',
-        lastUpdated:'Jan 25 2023'
+        projectTitle:'Rancid Tomatillos',
+        description: 'Rancid Tomatillos is a movie rating application that allows users to browse movies, view movie details, and rate movies. The app fetches movie data from the Movie Database API and allows users to log in and rate movies. This was completed in one week as a pair project.',
+        sourceLink:'https://github.com/jimmacur/rancid-tomatillos',
+        lastUpdated:'Oct 2024'
     },
     {
-        projectTitle:'Space Tourism Website',
-        description: 'It is a solution to challenge of FrontEnd Mentors. It is a React website to depict facts about our Solar System. ',
-        sourceLink:'https://github.com/killer-abhi/space-tour.git',
-        lastUpdated:'Oct 16 2022'
+        projectTitle:'Viewing Party',
+        description: 'Viewing Party is a movie viewing application that allows users to browse movies, view movie details, and create viewing parties. The app fetches movie data from the Movie Database API and allows users to log in, add friends, and create viewing parties. This was completed in one week as a solo project.',
+        sourceLink:'https://github.com/jimmacur/viewing-party-api',
+        lastUpdated:'Oct 2024'
     },
     {
-        projectTitle:'Password Generator',
-        description: 'A website where you can generate strong Passwords to use as Authentication in different websites and apps based on the difficulty level set by you. ',
-        sourceLink:'https://github.com/killer-abhi/password-generator.git',
-        lastUpdated:'Sep 24 2022'
+        projectTitle:'Little Shop',
+        description: 'The Little Shop FE is a user interface that allows merchants to manage their coupons. Features include viewing a list of all coupons, activating and deactivating coupons, and applying coupons to specific invoices. ',
+        sourceLink:'https://github.com/jimmacur/little-shop-fe',
+        lastUpdated:'Sep 2024'
     },
     {
-        projectTitle:'QR Code Generator',
-        description: 'A simple website to generate QR Code of any text provided as Input.It fetches an API to provide you the required QR Code.',
-        sourceLink:'https://github.com/killer-abhi/qr-code-generator.git',
+        projectTitle:'Hang in There',
+        description: ' Hang in There is a motivational poster generator that allows users to create custom posters with random images and quotes. The app fetches image and quote data from two separate APIs and allows users to save their favorite posters. This was completed in one week as a solo project.',
+        sourceLink:'https://github.com/jimmacur/poster_project',
         lastUpdated:'Oct 24 2022'
     },
     {
-        projectTitle:'Calculator',
-        description: 'A Calculator to do basic operations. It is a React app with three different themes.',
-        sourceLink:'https://github.com/killer-abhi/calculator.git',
-        lastUpdated:'Sep 26 2022'
-    },
-];
-const ProjectsData={DUMMY_PROJECTS};
+        projectTitle:'Battleship',
+        description: 'This project is a command-line implementation of the classic game Battleship, built using Ruby and designed to reinforce Test-Driven Development (TDD) and algorithmic thinking. It emphasizes object-oriented programming and collaborative workflows, including pair programming and pull request reviews, to deliver a strategic and interactive gameplay experience. In our version we included a feature that produced random pirate insults when a player missed a shot or if the computer sank your ship.',
+        sourceLink:'https://github.com/jchirch/Battleship',
+        lastUpdated:'July 2024'
+    }
+  ];
+const ProjectsData={PROJECTS};
 export default ProjectsData;

@@ -101,7 +101,7 @@ const ContactForm = (props) => {
             <Prompt when={isEntering} message={(location) =>
                 'Are You Sure You Want To Leave ? All your entered data will be lost!'}
             />
-            <div className={classes.contactFormCard}>
+            {/* <div className={classes.contactFormCard}>
                 <h1 style={{ color: nonThemeColor }}>Leave A Message</h1>
                 <form onFocus={formFocussedHandler} action="" onSubmit={formSubmitHandler} className={formClasses}>
                     <input value={enteredName}
@@ -152,7 +152,7 @@ const ContactForm = (props) => {
                         <Button type="submit" disabled={!formIsValid || isSent}>{btnText}</Button>
                     </div>
                 </form>
-            </div>
+            </div> */}
         </Fragment>
     )
 };
