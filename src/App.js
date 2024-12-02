@@ -23,7 +23,7 @@ const App = () => {
         <Projects />
         <AboutMe />
         <Footer />
-        <Mode/>
+        {/* <Mode/> */}
     </div>
   )
 }

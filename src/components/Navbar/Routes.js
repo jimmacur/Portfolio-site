@@ -1,36 +1,51 @@
 import React from "react";
-// import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-function Routes(props) {
+import { Link } from "react-scroll";
 
-    const toggleActive=(index)=>{
-        const navs=document.getElementsByClassName("navs");
-        console.log(navs.length);
-        for(let i=0;i<navs.length;i++){
-            navs[i].classList.remove("active");
-        };
-        navs[index].classList.add("active");
-    }
-    return (
-        <>
-        {/* For broswer router replace- 
-            a -> Navlink
-            href - to 
-            # - / */}
-        
-            <a href="#home" onClick={props.onClick}>
-                <div className="navs active" onClick={()=>toggleActive(0)}>Home</div>
-            </a>
-            <a href="#education" onClick={props.onClick}>
-                <div className="navs" onClick={()=>toggleActive(1)}>Education</div>
-            </a>
-            <a href="#projects" onClick={props.onClick}>
-                <div className="navs" onClick={()=>toggleActive(2)}>Projects</div>
-            </a>
-            <a href="#getInTouch" onClick={props.onClick}>
-                <div className="navs" onClick={()=>toggleActive(3)}>Get In Touch</div>
-            </a>
-            
-        </>
-    )
+function Routes(props) {
+  return (
+    <>
+      <Link
+        to="home"
+        smooth={true}
+        duration={500}
+        className="navs"
+        activeClass="active"
+        spy={true}
+        onSetActive={(to) => console.log('Active section:', to)}
+      >
+      Home
+      </Link>
+      <Link
+        to="education"
+        smooth={true}
+        duration={500}
+        className="navs"
+        activeClass="active"
+        spy={true}
+      >
+        Education
+      </Link>
+      <Link
+        to="projects"
+        smooth={true}
+        duration={500}
+        className="navs"
+        activeClass="active"
+        spy={true}
+      >
+        Projects
+      </Link>
+      <Link
+        to="getInTouch"
+        smooth={true}
+        duration={500}
+        className="navs"
+        activeClass="active"
+        spy={true}
+      >
+        Get In Touch
+      </Link>
+    </>
+  );
 }
 export default Routes;

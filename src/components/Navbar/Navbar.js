@@ -88,13 +88,6 @@ const Navbar = () => {
                         <div id="lightModeBtn" style={{ color: "white" }}><LightModeIcon /></div>
                         <div id="darkModeBtn" style={{ display: "none" }}><DarkModeIcon /></div>
                     </div>
-
-                    <div className="colorSelector" onClick={handleColorSelector} style={{ backgroundColor: activeColor }}>
-                        {
-                            isColorModalShown && <ColorModal selectColor={changeColor} onConfirm={handleColorSelector} />
-                        }
-                    </div>
-
                     <input type="checkbox" onClick={()=>handleDropDown()} ref={menuRef} id="burger-toggle" />
                     <label htmlFor="burger-toggle" className="burger-menu">
                         <div className="line"></div>
